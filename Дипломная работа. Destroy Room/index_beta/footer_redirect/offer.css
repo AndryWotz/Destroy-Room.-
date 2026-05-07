@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    font-family: Comic Sans MS;
+}
+
+.offer-header {
+    text-align: center;
+    color: yellow;
+}
+
+.offer-text {
+    text-align: left;
+    color: white;
+}

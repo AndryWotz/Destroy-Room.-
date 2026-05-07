@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    font-family: Comic Sans MS;
+}
+
+.privacy-header {
+    text-align: center;
+    color: yellow;
+}
+
+.privacy-text {
+    text-align: left;
+    color: white;
+}

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.panel {
+    font-family: Comic Sans MS;
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+.navbar_button {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    background-color: yellow;
+    font-family: Comic Sans MS;
+}
+
+.navbar_button:hover {
+    background-color: grey;
+    box-shadow: grey;
+}
+
+table {
+    margin: 100px;
+    table-layout: fixed;
+    width: 100vh;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.pagination {
+    margin-left: 100px;
+    margin-top:-80px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.table-container {
+    width: max-content;
+    
+}
+
+.arrow_right {
+    color: white;
+    cursor: pointer;
+}
+
+.arrow_left :hover {
+    color: yellow;
+}
+
+.arrow_left {
+    color: white;
+    cursor: pointer;
+}
+
+
+.func_bt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 28px;
+    margin-right: 100px;
+}
+
+.func_bt button {
+    border-radius: 50px;
+    height: 30px;
+    width: auto;
+}
+
+.func_bt button:hover {
+    background-color: yellow;
+}
+
+
+.pag_btn button {
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+}
+
+.pag_btn button:hover {
+    background-color: yellow;
+} 

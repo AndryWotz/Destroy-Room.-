@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auth</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="ru">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Авторизация</title>
+        <link rel="stylesheet" href="auth.css" />
+      </head>
+      <body>
+        <div class="container">
+          <h1>Вход</h1>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Логин"
+            id="login"
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="Пароль"
+            id="password"
+          />
+          <br />
+          <button class="login-btn" onclick="checkAuth()">Вход</button>
+        </div>
+        <script src="auth.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

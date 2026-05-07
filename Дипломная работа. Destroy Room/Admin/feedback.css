@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.navbar_button {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    background-color: yellow;
+    font-family: Comic Sans MS;
+}
+
+.navbar_button:hover {
+    background-color: grey;
+    box-shadow: grey;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

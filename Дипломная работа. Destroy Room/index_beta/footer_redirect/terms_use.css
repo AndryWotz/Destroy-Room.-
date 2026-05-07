@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    font-family: Comic Sans MS;
+}
+
+.terms-header {
+    text-align: center;
+    color: yellow;
+}
+
+.terms-text {
+    text-align: left;
+    color: white;
+}
